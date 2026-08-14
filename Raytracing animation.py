@@ -129,5 +129,5 @@ ani = animation.FuncAnimation(
     blit=True,
     repeat=True,
 )
-ani.save(r"C:\Users\julia\Desktop\trou_noir.gif", writer="pillow", fps=30)
+ani.save("raytracingtrounoir.gif",writer='pillow',fps=30)
 plt.show()
